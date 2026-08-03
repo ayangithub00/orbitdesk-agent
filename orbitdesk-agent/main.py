@@ -26,5 +26,5 @@ for q in questions["questions"]:
         "reason": result.get("reason", "")
     }
 
-    print("\nFinal Response:")        # ← yeh bhi andar
-    print(json.dumps(final_output, indent=4))    # ← yeh bhi
+    print("\nFinal Response:")       
+    print(json.dumps(final_output, indent=4))    
