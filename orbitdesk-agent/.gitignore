@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.pyc
+
+# Virtual Environment
+venv/
+env/
+.env
+
+# FAISS Index (large file)
+*.index
+
+# Hugging Face Models Cache
+.cache/
+models/
+
+# Mac
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Secrets
+.env
+*.key
+*.secret.venv/
+venv/
+.venv/

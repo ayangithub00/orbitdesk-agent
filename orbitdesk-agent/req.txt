@@ -1,0 +1,7 @@
+langgraph
+langchain
+sentence-transformers
+faiss-cpu
+transformers
+torch
+numpy
