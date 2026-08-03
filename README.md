@@ -59,7 +59,7 @@ cd orbitdesk-agent
 
 **2. Install dependencies:**
 ```bash
-pip install -r requirements.txt
+pip install -r req.txt
 ```
 
 **3. Run the agent:**
@@ -124,4 +124,4 @@ Models will be downloaded automatically on first run (~1-2 GB).
 
 ## AI Assistance Disclosure
 
-Claude (Anthropic) was used as a coding assistant for guidance and debugging during development. All code was written and understood by the author.
+Claude (Anthropic) was used as a coding assistant for guidance and debugging during development. 
