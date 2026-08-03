@@ -53,7 +53,7 @@ orbitdesk-agent/
 
 **1. Clone the repository:**
 ```bash
-git clone <your-repo-url>
+git clone <github.com/ayangithub00/orbitdesk-agent>
 cd orbitdesk-agent
 ```
 
