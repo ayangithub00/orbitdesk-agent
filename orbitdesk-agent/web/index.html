@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#101b3d" />
+    <title>OrbitDesk Support Console</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <header class="topbar">
+        <a class="brand" href="/" aria-label="OrbitDesk Support Console home"><span class="orbit-mark" aria-hidden="true"><i></i><b></b></span><span>orbit<span>desk</span></span></a>
+        <div class="secure-badge"><span></span> Knowledge-grounded support</div>
+      </header>
+      <section class="hero" aria-labelledby="page-title">
+        <p class="eyebrow">SUPPORT CONSOLE</p><h1 id="page-title">How can we help?</h1><p>Get clear, documentation-backed guidance for your OrbitDesk workspace.</p>
+      </section>
+      <section class="workspace" aria-label="Support question workspace">
+        <div class="question-panel">
+          <label for="question">Ask a support question</label>
+          <textarea id="question" rows="5" placeholder="For example: A scheduled export missed its usual time after we changed the workspace timezone."></textarea>
+          <div class="question-footer"><span id="character-count">0 / 1,500</span><button id="ask-button" type="button">Ask OrbitDesk <span aria-hidden="true">→</span></button></div>
+          <p class="privacy-note"><span aria-hidden="true">⌁</span> Never include passwords, API secrets, tokens, or customer data.</p>
+        </div>
+        <aside class="quick-help" aria-label="Example questions">
+          <p class="eyebrow">COMMON TOPICS</p>
+          <button data-question="Our daily dashboard exports stopped appearing at the expected time after an Admin changed the workspace timezone yesterday. What should we check?">Scheduled exports</button>
+          <button data-question="I am a read-only Viewer. Can I create an API credential for a reporting script?">Roles &amp; API credentials</button>
+          <button data-question="Our data sync is not working. What details do you need to diagnose it?">Connections &amp; refreshes</button>
+          <button data-question="What information is safe to include in an escalation for repeated render failures?">Escalations</button>
+        </aside>
+      </section>
+      <section id="response" class="response hidden" aria-live="polite">
+        <div class="response-header"><div><p class="eyebrow">ORBITDESK RESPONSE</p><h2>Recommended next steps</h2></div><span id="classification" class="classification"></span></div>
+        <div id="answer" class="answer"></div>
+        <div class="response-meta"><div><span>Confidence</span><strong id="confidence">—</strong></div><div><span>Route</span><strong id="reason">—</strong></div></div>
+        <div id="sources-section" class="sources hidden"><h3>Supporting sources</h3><ul id="sources"></ul></div>
+      </section>
+      <section id="loading" class="loading hidden" aria-live="polite"><span class="spinner" aria-hidden="true"></span>Checking the OrbitDesk knowledge base…</section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
